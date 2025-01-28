@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#one {
+    text-align: center;
+    font-size: x-large;
+    background-color: rgba(255, 166, 0, 0.737);
+    padding: 10px 0;
+    word-spacing: 30px;
+    line-height: 50px;
+    /*     position: fixed; */
+    width: 100%;
+}
+
+#one a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: all 0.3s;
+}
+
+#one a:hover {
+    color: whitesmoke;
+    transform: rotate(20deg);
+    transform: scale(2);
+}
+
+#two {
+    text-align: center;
+    font-size: 100px;
+    color: floralwhite;
+    background-image: url("buildingbackround.jpg");
+    height: 270px;
+    padding: 50px;
+
+}
+
+#three {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.blog-card {
+    background-color: #DBDBDB;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.blog-card:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.blog-image {
+    width: 300px;
+    /* Adjust to preferred size */
+    height: 200px;
+    /* Add fixed height for consistency */
+    object-fit: cover;
+    /* Ensures photos don't stretch or distort */
+    margin-bottom: 15px;
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#you {
+    text-align: center;
+    font-size: 50PX;
+    text-shadow: +13px 13px 13px black;
+    text-decoration: double;
+    color: black;
+    text-decoration: wavy;
+}
+
+#you:hover {
+    color: red;
+    transition: color 0.4s;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: chartreuse;
+}
+
+#blogger-photos {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    /* Keeps the circular look */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#one {
+    text-align: center;
+    font-size: x-large;
+    background-color: rgba(255, 166, 0, 0.737);
+    padding: 10px 0;
+    word-spacing: 30px;
+    line-height: 50px;
+
+
+}
+
+#one a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: all 0.3s;
+
+
+
+
+}
+
+#one a:hover {
+    color: whitesmoke;
+    transform: rotate(20deg);
+
+
+
+    transform: scale(2);
+
+}
+
+#two {
+    text-align: center;
+    font-size: 100px;
+    color: floralwhite;
+    background-image: url("buildingbackround.jpg");
+    height: 270px;
+    /* display: flex;  */
+    /* align-items: center;  */
+    /* justify-content: center;  */
+}
+
+#three {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+
+}
+
+.blog-card {
+    background-color: #DBDBDB;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.blog-card {
+    margin: 20px;
+    padding: 25px;
+}
+
+
+.blog-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+
+}
+
+.blog-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+border: 50px;
+border-color: white;
+border-style: solid;
+border-width: 10px;
+border-radius: 50%;
+box-shadow: 5px 5px 5px black;
+}
+
+#section {
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 500px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.2);
+    transition: transform 0.4s ease-in-out;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    #one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-card {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.contact {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.page {
+    text-align: center;
+}
+
+.page:hover {
+    transform: scale(1.1);
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.blog-image:hover {
+    filter: brightness(1.2);
+    /* Highlights the image */
+    transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .blog-card {
+        width: 90%;
+        /* Adjust card width for mobile devices */
+    }
+
+    #three {
+        gap: 10px;
+        /* Reduce spacing for smaller screens */
+    }
+}
